@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const productsApi=axios.create({
-    baseURL: "76.76.21.9:9000"
+    baseURL: "http://127.0.0.1:9000"
 });
 
 export const getProducts=(keyword="",page=1,size=5)=>{
