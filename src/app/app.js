@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const productsApi=axios.create({
-    baseURL: "https://reactbasicapp-sigma.vercel.app/:9000"
+    baseURL: "76.76.21.9:9000"
 });
 
 export const getProducts=(keyword="",page=1,size=5)=>{
