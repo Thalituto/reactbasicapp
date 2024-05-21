@@ -1,6 +1,8 @@
 import React from 'react'
 
 export default function Home() {
+
+   const baseUrl = process.env.REACT_APP_DATAURL;
   return (
 
     <div className='p-3'>
@@ -10,6 +12,10 @@ export default function Home() {
 
         <h3>Home component</h3>
 
+          {baseUrl}
+
+
+         
 
       </div>
 
