@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function Home() {
 
-  const baseUrl = process.env.REACT_APP_DATA_URL;
-  const baseUrlp = process.env.REACT_APP_BASE_URL;
+  
+  const baseUrl = process.env.DATA_URL;
+  const baseUrlp = process.env.BASE_URL;
   return (
 
     <div className='p-3'>
